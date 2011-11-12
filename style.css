@@ -228,6 +228,15 @@ h2 {
     line-height: 1.125em;
 }
 
+dt {
+    margin-bottom: 0.5em;
+    font-size: 1.4em;
+}
+dd {
+    margin-left: 2em;
+    margin-bottom: 0.5em;
+}
+
 #page p {
     margin-bottom: 1.5em;
 }
@@ -251,7 +260,8 @@ h2 {
     margin-bottom: 1em;
 }
 
-#sidebar {
+#sidebar,
+#contact-form {
     float: right;
     width: 12em;
     padding: 1.5em 1.5em 0 1.5em;
@@ -263,6 +273,28 @@ h2 {
     -moz-border-radius: 0.5em;
     -webkit-border-radius: 0.5em;
     border-radius: 0.5em;
+}
+
+#contact-form {
+    width: 20em;
+    padding-bottom: 1.5em;
+}
+
+#contact-form input,
+#contact-form textarea {
+    font-family: 'Droid Serif', serif;
+}
+
+#contact-form input[type=text],
+#contact-form input[type=email],
+#contact-form textarea {
+    width: 19em;
+    padding: 0.5em;
+    border: solid 1px silver;
+    -moz-border-radius: 0.125em;
+    -webkit-border-radius: 0.125em;
+    border-radius: 0.125em;
+    margin-bottom: 1em;
 }
 
 #search-results article h2,
@@ -559,4 +591,22 @@ body {
 
 .text-green {
     color: #5ab246;
+}
+
+.attribution a {
+    font-size: 0.6em;
+    -moz-opacity: 0;
+    opacity: 0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    /* Transitions */
+    -webkit-transition: opacity 0.33s ease-in-out;
+    -moz-transition: opacity 0.33s ease-in-out;
+    -o-transition: opacity 0.33s ease-in-out;
+    transition: opacity 0.33s ease-in-out;
+}
+
+.attribution:hover a {
+    -moz-opacity: 1;
+    opacity: 1;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }

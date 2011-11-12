@@ -5,7 +5,7 @@
 		<footer id="footer" class="source-org vcard copyright clearfix">
 		    <div id="footer-cei-project">CollabKit is a Collaborative Education Initiative Project</div>
 		    <?php wp_nav_menu( array( 'container_id' => 'menu-footer-wrap', 'menu_class' => 'clearfix','theme_location' => 'footer' ) ); ?>
-		    <div id="footer-license">All content under <a href="http://creativecommons.org/licenses/by-sa/2.0/" target="_blank">CC-BY-SA</a></div>
+		    <div id="footer-license">Content under <a href="http://creativecommons.org/licenses/by-sa/2.0/" target="_blank">CC BY-SA</a> unless otherwise noted.</div>
 		</footer>
 	</div>
 
